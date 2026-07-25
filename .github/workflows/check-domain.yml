@@ -3,7 +3,7 @@ name: Check Domain Availability
 on:
   schedule:
     - cron: '0 9 * * *' # يعمل يومياً في الساعة التاسعة صباحاً بالتوقيت العالمي
-
+  workflow_dispatch:
 jobs:
   check-domain:
     runs-on: ubuntu-latest
