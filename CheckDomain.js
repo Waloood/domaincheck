@@ -39,7 +39,6 @@ function sendEmail(domain) {
 }
 
 // يتم تشغيل هذه المهمة يومياً في الساعة 9 صباحاً
-cron.schedule("0 9 * * *", () => {
-  console.log("بدء الفحص اليومي...");
-  checkDomain("tajsee.com");
-});
+
+console.log("بدء الفحص اليومي...");
+checkDomain("tajsee.com");
