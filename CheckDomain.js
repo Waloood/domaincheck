@@ -41,4 +41,4 @@ function sendEmail(domain) {
 // يتم تشغيل هذه المهمة يومياً في الساعة 9 صباحاً
 
 console.log("بدء الفحص اليومي...");
-checkDomain("tajsee.com");
+checkDomain("tajseem.com");
