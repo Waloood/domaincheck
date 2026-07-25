@@ -42,3 +42,4 @@ function sendEmail(domain) {
 
 console.log("بدء الفحص اليومي...");
 checkDomain("tajsee.com");
+checkDomain("tajseem.com");
